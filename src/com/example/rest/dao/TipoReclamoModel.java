@@ -33,13 +33,10 @@ public class TipoReclamoModel {
 			tiporeclamo bean = null;
 			while(rs.next()){
 				bean = new tiporeclamo();
-				bean.setFechaRegistro(rs.getString(1));
-				bean.setEstado(rs.getString(2));
-				bean.setDescripcion(rs.getString(3));
-				bean.setIdTipoReclamo(rs.getInt(4));
-			
-				
-				
+				bean.setIdTipoReclamo(rs.getInt(1));
+				bean.setDescripcion(rs.getString(2));
+				bean.setEstado(rs.getString(3));
+				bean.setFechaRegistro(rs.getString(4));
 				lista.add(bean);
 			}
 		} catch (Exception e) {
