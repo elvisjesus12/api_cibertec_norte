@@ -34,7 +34,7 @@
   </build>
   
   
-  <dependencies>
+ <dependencies>
 	
 		<dependency>
 		    <groupId>commons-logging</groupId>
@@ -96,6 +96,7 @@
 		
 		
 	</dependencies>
+
   
   
   
